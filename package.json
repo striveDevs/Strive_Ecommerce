@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.9",
+    "tailwindcss": "^4.1.9"
+  },
+  "name": "strive_ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/css/css_input.css -o ./src/css/css_output.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
